@@ -5,4 +5,6 @@ import java.util.List;
 
 public interface PessoaFisicaServicos {
   List<PessoaFisica> buscarTodos();
+  PessoaFisica buscarPorId(Long id);
+  PessoaFisica inserir(PessoaFisica pessoaFisica);
 }

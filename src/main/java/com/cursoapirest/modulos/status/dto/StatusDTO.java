@@ -5,7 +5,11 @@ import java.util.Date;
 
 public class StatusDTO implements Serializable {
 
-  private static final String MESSAGEM = "Servidor está Funcionando!";
+  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+private static final String MESSAGEM = "Servidor está Funcionando!";
   private static final String VERSAO = "0.0.1";
 
   private String versao = VERSAO;
